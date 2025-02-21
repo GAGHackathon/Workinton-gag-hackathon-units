@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Request Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Token Request Group</h1>
+        <button id="connectWallet">Cüzdanı Bağla</button>
+        <div id="walletAddress"></div>
+        
+        <h2>Grup Üyeleri</h2>
+        <ul id="groupMembers"></ul>
+        
+        <h2>Yeni Üyelik İsteği</h2>
+        <input type="text" id="newMemberAddress" placeholder="Yeni üye adresi">
+        <button id="createMembershipRequest">İstek Oluştur</button>
+        
+        <h2>Üyelik İstekleri</h2>
+        <ul id="membershipRequests"></ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
